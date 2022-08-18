@@ -1,0 +1,21 @@
+.about__container{
+    gap: 15%;
+}
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+@media screen and (max-width: 1024px) {
+    .about__content p{
+        margin: 1rem 0 1.5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about__content{
+        text-align: center;
+    }
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+}
