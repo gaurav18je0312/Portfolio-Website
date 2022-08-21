@@ -10,7 +10,7 @@
 }
 :root{
     --color-bg: #242432;
-    --color-bg-variant: #2c2c6c;
+    --color-bg-variant: #005f72;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white: #fff;
@@ -30,7 +30,7 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(var(--color-bg), var(--color-primary));
+    background-image: linear-gradient(var(--color-bg), rgb(0, 132, 144));
     color: var(--color-white);
     line-height: 1.7;
     background-size: 100%;
