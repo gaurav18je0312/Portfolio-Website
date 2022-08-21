@@ -50,6 +50,9 @@ input,textarea{
     resize: none;
     color: var(--color-white);
 }
+::-webkit-input-placeholder{
+    color: var(--color-white);
+}
 
 @media screen and (max-width: 1024px){
     .container.contact__container{

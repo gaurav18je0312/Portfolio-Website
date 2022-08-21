@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 :root{
-    --color-bg: #1f1f38;
+    --color-bg: #242432;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
@@ -30,10 +30,9 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background-image: linear-gradient(var(--color-bg), var(--color-primary));
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url();
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -99,6 +98,7 @@ img{
     }
     section{
         margin-top: 6rem;
+        margin-bottom: 6rem;
     }
 }
 

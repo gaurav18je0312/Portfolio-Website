@@ -15,8 +15,8 @@ const Portfolio = () => {
           </div>
           <h3>Online Food Ordering Website</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/gaurav18je0312/Online-Food-Ordering-Webapp-.git" className='btn' target="_blank">Github</a>
-          <a href="https://online-food-ordering-webapp.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
+          <a href="https://github.com/gaurav18je0312/Online-Food-Ordering-Webapp-.git" className='btn' target="_blank" rel="noopener">Github</a>
+          <a href="https://online-food-ordering-webapp.netlify.app/" className='btn btn-primary' target="_blank" rel="noopener">Live Demo</a>
           </div>
         </article>
         <article className="portfolio__item">
@@ -25,8 +25,8 @@ const Portfolio = () => {
           </div>
           <h3>Snake Game</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/gaurav18je0312/Snake-Game.git" className='btn' target="_blank">Github</a>
-          <a href="https://online-food-ordering-webapp.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
+          <a href="https://github.com/gaurav18je0312/Snake-Game.git" className='btn' target="_blank" rel="noopener">Github</a>
+          <a href="https://gaurav-snake-game.netlify.app/" className='btn btn-primary' target="_blank" rel="noopener">Live Demo</a>
           </div>
         </article>
       </div>

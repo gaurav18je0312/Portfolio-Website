@@ -8,7 +8,7 @@
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transtion);   
+    transition: var(--transition);   
 }
 
 .portfolio__item:hover{
